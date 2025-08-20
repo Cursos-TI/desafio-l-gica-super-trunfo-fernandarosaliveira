@@ -190,6 +190,7 @@ int main() {
     if(escolha == escolha2){
         printf("Escolha atributos diferentes.\n");
         printf("Jogo desligando...\n");
+        return 0;
     } else {
     switch (escolha2)
     {
@@ -274,7 +275,7 @@ int main() {
     } else if ((area + pib + populacao + numerodept + densidadepopulacional) < (area2 + pib2 + populacao2 + numerodept2 + densidadepopulacional2)){
         resultado2++;
     } else {
-        printf("Empate!");
+        printf("Empate!\n");
     }
 
     // Mostra os resultados adquiridos através do jogo e da montagem das cartas.
